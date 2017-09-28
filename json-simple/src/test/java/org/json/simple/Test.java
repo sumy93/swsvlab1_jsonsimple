@@ -302,7 +302,7 @@ public class Test extends TestCase{
 		array1.add("abc\u0010a/");
 		array1.add(new Integer(123));
 		array1.add(new Double(222.123));
-		array1.add(new Boolean(true));
+		array1.add(Boolean.valueOf(true));
 		System.out.println("======array1==========");
 		System.out.println(array1);
 		System.out.println();
